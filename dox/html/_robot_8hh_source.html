@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Robot_na_scenie: Plik źródłowy Robot.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Robot_na_scenie
+   &#160;<span id="projectnumber">V1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_robot_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Robot.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_robot_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ROBOT_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ROBOT_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_obiekt__graficzny_8hh.html">Obiekt_graficzny.hh</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_sciezka_8hh.html">Sciezka.hh</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_scena.html">Scena</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_robot.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_robot.html">Robot</a> :<span class="keyword">public</span> <a class="code" href="class_obiekt___graficzny.html">Obiekt_Graficzny</a></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_robot.html#a50761b269774db93b23443ffed20484f">   21</a></span>&#160;   <span class="keywordtype">double</span> <a class="code" href="class_robot.html#a50761b269774db93b23443ffed20484f">krok</a>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_robot.html#af14b234f5aa60974b1f7297e244251de">   26</a></span>&#160;   <span class="keywordtype">int</span> <a class="code" href="class_robot.html#af14b234f5aa60974b1f7297e244251de">Promien</a>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_robot.html#ad35b90898da6fdd851f5dd9dd6d12fbc">   33</a></span>&#160;  <a class="code" href="class_sciezka.html">Sciezka</a> <a class="code" href="class_robot.html#ad35b90898da6fdd851f5dd9dd6d12fbc">R_Sciezka</a>;    <span class="comment">//sciezka dla kazdego robota</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_robot.html#a74d4caa2ce62029be43b86759946fbab">   38</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="class_robot.html#a74d4caa2ce62029be43b86759946fbab">numer_robota</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="class_robot.html#a4516e3da28f156e4d1fd5225f27d542b">Robot</a>( <a class="code" href="class_wektor2_d.html">Wektor2D</a> );</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#a23df2622612f0fc896b88a8d66209e0b">Przod</a>( <a class="code" href="class_wektor2_d.html">Wektor2D</a> Wlasciwy);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#a824d453b6e0dc7b7520b135e52ff0559">Animacja_Przod</a>(<span class="keywordtype">double</span> odleglosc, <a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> &amp; Lacze , <a class="code" href="class_scena.html">Scena</a> SCE);   </div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#a5244f74177b985092233454d3da45725">Ustaw_Krok</a>(<span class="keywordtype">double</span> wymiar);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#a73de91e9715d9ea22787954b3d31d5f6">Animacja_Obrot</a>(<span class="keywordtype">int</span> kat, <a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> &amp; Lacze);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="class_wektor2_d.html">Wektor2D</a> <a class="code" href="class_robot.html#a46cfb72ab587faab6a5253b8002daaa6">Pokaz_Wektor_Translacji</a>();</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_robot.html#ad782a1b489b166eca26f9fe91c547c94">Powieksz_Robota</a>(<span class="keywordtype">float</span> x , <a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> &amp; Lacze);</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_robot_html_a5244f74177b985092233454d3da45725"><div class="ttname"><a href="class_robot.html#a5244f74177b985092233454d3da45725">Robot::Ustaw_Krok</a></div><div class="ttdeci">void Ustaw_Krok(double wymiar)</div><div class="ttdoc">Sciezke S przekazujemy przez dereferencje poniewaz gdyby nie to animacja pracowala by na kopii i nic ...</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00171">Robot.cpp:171</a></div></div>
+<div class="ttc" id="class_robot_html_a46cfb72ab587faab6a5253b8002daaa6"><div class="ttname"><a href="class_robot.html#a46cfb72ab587faab6a5253b8002daaa6">Robot::Pokaz_Wektor_Translacji</a></div><div class="ttdeci">Wektor2D Pokaz_Wektor_Translacji()</div><div class="ttdoc">Pokazywanie wektora. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00213">Robot.cpp:213</a></div></div>
+<div class="ttc" id="class_robot_html_a50761b269774db93b23443ffed20484f"><div class="ttname"><a href="class_robot.html#a50761b269774db93b23443ffed20484f">Robot::krok</a></div><div class="ttdeci">double krok</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00021">Robot.hh:21</a></div></div>
+<div class="ttc" id="class_robot_html_a73de91e9715d9ea22787954b3d31d5f6"><div class="ttname"><a href="class_robot.html#a73de91e9715d9ea22787954b3d31d5f6">Robot::Animacja_Obrot</a></div><div class="ttdeci">void Animacja_Obrot(int kat, PzG::LaczeDoGNUPlota &amp;Lacze)</div><div class="ttdoc">Animacja obrotu. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00177">Robot.cpp:177</a></div></div>
+<div class="ttc" id="class_robot_html_af14b234f5aa60974b1f7297e244251de"><div class="ttname"><a href="class_robot.html#af14b234f5aa60974b1f7297e244251de">Robot::Promien</a></div><div class="ttdeci">int Promien</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00026">Robot.hh:26</a></div></div>
+<div class="ttc" id="class_robot_html_a824d453b6e0dc7b7520b135e52ff0559"><div class="ttname"><a href="class_robot.html#a824d453b6e0dc7b7520b135e52ff0559">Robot::Animacja_Przod</a></div><div class="ttdeci">void Animacja_Przod(double odleglosc, PzG::LaczeDoGNUPlota &amp;Lacze, Scena SCE)</div><div class="ttdoc">Animacja ruchu. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00077">Robot.cpp:77</a></div></div>
+<div class="ttc" id="class_robot_html"><div class="ttname"><a href="class_robot.html">Robot</a></div><div class="ttdoc">Klasa modeluje robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00015">Robot.hh:15</a></div></div>
+<div class="ttc" id="class_pz_g_1_1_lacze_do_g_n_u_plota_html"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a></div><div class="ttdoc">Klasa realizuje interfejs do programu GNUPlot. </div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8hh_source.html#l00126">lacze_do_gnuplota.hh:126</a></div></div>
+<div class="ttc" id="class_obiekt___graficzny_html"><div class="ttname"><a href="class_obiekt___graficzny.html">Obiekt_Graficzny</a></div><div class="ttdoc">Klasa modeluje obiekt graficzny. </div><div class="ttdef"><b>Definition:</b> <a href="_obiekt__graficzny_8hh_source.html#l00016">Obiekt_graficzny.hh:16</a></div></div>
+<div class="ttc" id="class_sciezka_html"><div class="ttname"><a href="class_sciezka.html">Sciezka</a></div><div class="ttdoc">Klasa modeluje sciezke robota. </div><div class="ttdef"><b>Definition:</b> <a href="_sciezka_8hh_source.html#l00013">Sciezka.hh:13</a></div></div>
+<div class="ttc" id="_sciezka_8hh_html"><div class="ttname"><a href="_sciezka_8hh.html">Sciezka.hh</a></div></div>
+<div class="ttc" id="class_robot_html_a23df2622612f0fc896b88a8d66209e0b"><div class="ttname"><a href="class_robot.html#a23df2622612f0fc896b88a8d66209e0b">Robot::Przod</a></div><div class="ttdeci">void Przod(Wektor2D Wlasciwy)</div><div class="ttdoc">Ruch robta do przodu. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00067">Robot.cpp:67</a></div></div>
+<div class="ttc" id="class_robot_html_a74d4caa2ce62029be43b86759946fbab"><div class="ttname"><a href="class_robot.html#a74d4caa2ce62029be43b86759946fbab">Robot::numer_robota</a></div><div class="ttdeci">int numer_robota</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00038">Robot.hh:38</a></div></div>
+<div class="ttc" id="class_robot_html_ad782a1b489b166eca26f9fe91c547c94"><div class="ttname"><a href="class_robot.html#ad782a1b489b166eca26f9fe91c547c94">Robot::Powieksz_Robota</a></div><div class="ttdeci">void Powieksz_Robota(float x, PzG::LaczeDoGNUPlota &amp;Lacze)</div><div class="ttdoc">Skalowanie robota. </div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00219">Robot.cpp:219</a></div></div>
+<div class="ttc" id="class_robot_html_ad35b90898da6fdd851f5dd9dd6d12fbc"><div class="ttname"><a href="class_robot.html#ad35b90898da6fdd851f5dd9dd6d12fbc">Robot::R_Sciezka</a></div><div class="ttdeci">Sciezka R_Sciezka</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8hh_source.html#l00033">Robot.hh:33</a></div></div>
+<div class="ttc" id="class_robot_html_a4516e3da28f156e4d1fd5225f27d542b"><div class="ttname"><a href="class_robot.html#a4516e3da28f156e4d1fd5225f27d542b">Robot::Robot</a></div><div class="ttdeci">Robot(Wektor2D)</div><div class="ttdef"><b>Definition:</b> <a href="_robot_8cpp_source.html#l00037">Robot.cpp:37</a></div></div>
+<div class="ttc" id="class_scena_html"><div class="ttname"><a href="class_scena.html">Scena</a></div><div class="ttdoc">Klasa modeluje pojecie sceny. </div><div class="ttdef"><b>Definition:</b> <a href="_scena_8hh_source.html#l00018">Scena.hh:18</a></div></div>
+<div class="ttc" id="class_wektor2_d_html"><div class="ttname"><a href="class_wektor2_d.html">Wektor2D</a></div><div class="ttdoc">Klasa modeluje wektora dwuwymiarowego. </div><div class="ttdef"><b>Definition:</b> <a href="_wektor2_d_8hh_source.html#l00012">Wektor2D.hh:12</a></div></div>
+<div class="ttc" id="_obiekt__graficzny_8hh_html"><div class="ttname"><a href="_obiekt__graficzny_8hh.html">Obiekt_graficzny.hh</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="_robot_8hh.html">Robot.hh</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

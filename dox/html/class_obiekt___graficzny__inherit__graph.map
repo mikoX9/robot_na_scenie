@@ -1,0 +1,5 @@
+<map id="Obiekt_Graficzny" name="Obiekt_Graficzny">
+<area shape="rect" id="node2" href="$class_przeszkoda.html" title="Klasa modeluje przeszkode. " alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node3" href="$class_robot.html" title="Klasa modeluje robota. " alt="" coords="121,80,178,107"/>
+<area shape="rect" id="node4" href="$class_sciezka.html" title="Klasa modeluje sciezke robota. " alt="" coords="203,80,272,107"/>
+</map>

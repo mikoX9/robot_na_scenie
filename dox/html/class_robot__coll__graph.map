@@ -1,0 +1,6 @@
+<map id="Robot" name="Robot">
+<area shape="rect" id="node2" href="$class_obiekt___graficzny.html" title="Klasa modeluje obiekt graficzny. " alt="" coords="81,109,203,136"/>
+<area shape="rect" id="node5" href="$class_sciezka.html" title="Klasa modeluje sciezke robota. " alt="" coords="163,185,233,212"/>
+<area shape="rect" id="node3" href="$class_zbior___wierzcholkow.html" title="Klasa modeluje zbior wierzcholkow. " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node4" href="$class_wektor2_d.html" title="Klasa modeluje wektora dwuwymiarowego. " alt="" coords="169,5,251,32"/>
+</map>

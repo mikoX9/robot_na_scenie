@@ -1,0 +1,6 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" href="$class_obiekt___graficzny.html" title="Klasa modeluje obiekt graficzny. " alt="" coords="5,56,128,83"/>
+<area shape="rect" id="node2" href="$class_przeszkoda.html" title="Klasa modeluje przeszkode. " alt="" coords="176,5,267,32"/>
+<area shape="rect" id="node3" href="$class_robot.html" title="Klasa modeluje robota. " alt="" coords="193,56,250,83"/>
+<area shape="rect" id="node4" href="$class_sciezka.html" title="Klasa modeluje sciezke robota. " alt="" coords="187,107,256,133"/>
+</map>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Robot_na_scenie: Plik źródłowy Macierz2D.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Robot_na_scenie
+   &#160;<span id="projectnumber">V1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_macierz2_d_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Macierz2D.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_macierz2_d_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_macierz2_d_8hpp.html">Macierz2D.hpp</a>&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="_macierz2_d_8cpp.html#abfc2118376d5cb13f8ea3292aba8640b">    5</a></span>&#160;std::ostream&amp; <a class="code" href="_macierz2_d_8cpp.html#abfc2118376d5cb13f8ea3292aba8640b">operator &lt;&lt; </a>(std::ostream &amp;Strm, <span class="keyword">const</span> <a class="code" href="class_macierz2_d.html">Macierz2D</a> &amp;Mac)</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    Strm&lt;&lt;endl&lt;&lt;Mac.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]&lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt;Mac.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0];</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    Strm&lt;&lt;endl&lt;&lt;Mac.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1]&lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt;Mac.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1];</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> Strm;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="_macierz2_d_8cpp.html#a44f8636dfa5860d4643240a59523c113">   13</a></span>&#160;<a class="code" href="class_macierz2_d.html">Macierz2D</a> <a class="code" href="_macierz2_d_8cpp.html#a44f8636dfa5860d4643240a59523c113">operator * </a>(<a class="code" href="class_macierz2_d.html">Macierz2D</a> A, <a class="code" href="class_macierz2_d.html">Macierz2D</a> B)</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="class_macierz2_d.html">Macierz2D</a> WW;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    WW.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]=A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]+A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1];</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    WW.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]=A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]+A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1];</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    WW.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1]=A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]+A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1];</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    WW.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1]=A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]+A.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1]*B.<a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1];</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> WW;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="_macierz2_d_8cpp.html#a9fded3b21624b434ae2d231cb34d4470">   24</a></span>&#160;<a class="code" href="class_wektor2_d.html">Wektor2D</a> <a class="code" href="_macierz2_d_8cpp.html#a44f8636dfa5860d4643240a59523c113">operator * </a>(<a class="code" href="class_macierz2_d.html">Macierz2D</a> M, <a class="code" href="class_wektor2_d.html">Wektor2D</a> W){</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="class_wektor2_d.html">Wektor2D</a> WW;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;WW[0]=(M(0,0)*W[0])+(M(0,1)*W[1]);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;WW[1]=(M(1,0)*W[0])+(M(1,1)*W[1]);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordflow">return</span> WW;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_macierz2_d.html#af44e2fad2ba8d6495cc29fdd4988e318">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_macierz2_d.html#af44e2fad2ba8d6495cc29fdd4988e318">Macierz2D::Stworz_Trygonometryczna</a>(<span class="keywordtype">double</span> kat_rotacji)</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> alfa;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    alfa=(kat_rotacji*M_PI)/180.0;      <span class="comment">//przeliczenie stopni na radiany</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][0]=cos(alfa);        <span class="comment">//wpisanie wartosci do macierzy</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][0]=-sin(alfa);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[0][1]=sin(alfa);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Kolumna</a>[1][1]=cos(alfa);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">/*</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">    Mtry(0,0)=cos(alfa);        //wpisanie wartosci do macierzy</span></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">    Mtry(0,1)=-sin(alfa);</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">    Mtry(1,0)=sin(alfa);</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">    Mtry(1,1)=cos(alfa);</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">    */</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div><div class="ttc" id="class_macierz2_d_html_af44e2fad2ba8d6495cc29fdd4988e318"><div class="ttname"><a href="class_macierz2_d.html#af44e2fad2ba8d6495cc29fdd4988e318">Macierz2D::Stworz_Trygonometryczna</a></div><div class="ttdeci">void Stworz_Trygonometryczna(double kat_rotacji)</div><div class="ttdoc">Tworzy macierz trygonometryczna. </div><div class="ttdef"><b>Definition:</b> <a href="_macierz2_d_8cpp_source.html#l00034">Macierz2D.cpp:34</a></div></div>
+<div class="ttc" id="_macierz2_d_8cpp_html_abfc2118376d5cb13f8ea3292aba8640b"><div class="ttname"><a href="_macierz2_d_8cpp.html#abfc2118376d5cb13f8ea3292aba8640b">operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;Strm, const Macierz2D &amp;Mac)</div><div class="ttdef"><b>Definition:</b> <a href="_macierz2_d_8cpp_source.html#l00005">Macierz2D.cpp:5</a></div></div>
+<div class="ttc" id="_macierz2_d_8hpp_html"><div class="ttname"><a href="_macierz2_d_8hpp.html">Macierz2D.hpp</a></div></div>
+<div class="ttc" id="_macierz2_d_8cpp_html_a44f8636dfa5860d4643240a59523c113"><div class="ttname"><a href="_macierz2_d_8cpp.html#a44f8636dfa5860d4643240a59523c113">operator*</a></div><div class="ttdeci">Macierz2D operator*(Macierz2D A, Macierz2D B)</div><div class="ttdef"><b>Definition:</b> <a href="_macierz2_d_8cpp_source.html#l00013">Macierz2D.cpp:13</a></div></div>
+<div class="ttc" id="class_macierz2_d_html"><div class="ttname"><a href="class_macierz2_d.html">Macierz2D</a></div><div class="ttdoc">Klasa modeluje macierz dwuwymiarowa. </div><div class="ttdef"><b>Definition:</b> <a href="_macierz2_d_8hpp_source.html#l00014">Macierz2D.hpp:14</a></div></div>
+<div class="ttc" id="class_macierz2_d_html_aaf95a15d5f72ff8fe7b63ba55c96b67e"><div class="ttname"><a href="class_macierz2_d.html#aaf95a15d5f72ff8fe7b63ba55c96b67e">Macierz2D::Kolumna</a></div><div class="ttdeci">Wektor2D Kolumna[2]</div><div class="ttdef"><b>Definition:</b> <a href="_macierz2_d_8hpp_source.html#l00021">Macierz2D.hpp:21</a></div></div>
+<div class="ttc" id="class_wektor2_d_html"><div class="ttname"><a href="class_wektor2_d.html">Wektor2D</a></div><div class="ttdoc">Klasa modeluje wektora dwuwymiarowego. </div><div class="ttdef"><b>Definition:</b> <a href="_wektor2_d_8hh_source.html#l00012">Wektor2D.hh:12</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_400757c3a0df52e783ed9699284f29ce.html">src</a></li><li class="navelem"><a class="el" href="_macierz2_d_8cpp.html">Macierz2D.cpp</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>
